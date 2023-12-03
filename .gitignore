@@ -99,7 +99,6 @@ lib/**/*
 *.bak
 *.swp
 *~
-composer.lock
 .env
 
 # Ignore by common IDEs used directories/files
@@ -121,3 +120,13 @@ nbproject
 # Files by Build tool
 .vagrant
 Vagrantfile
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
